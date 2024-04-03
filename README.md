@@ -1,35 +1,31 @@
-# vue-shop
+# Vue-shop
 
-This template should help get you started developing with Vue 3 in Vite.
+Фронтенд онлайн магазина на Vue
 
-## Recommended IDE Setup
+## Технологии
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Vue**
+- **Vue Router**
+- **TailwindCSS**
 
-## Customize configuration
+## Запуск проекта
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Для запуска проекта необходимо выполнить следующие действия:
 
-## Project Setup
+1. Склонировать проект на ваш компьютер с [Github](https://github.com/SemenShOl/vue-shop) с помощью команды:
 
-```sh
+```
+git clone
+```
+
+2. Установить зависимости:
+
+```
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+3. Запустить проект:
 
-```sh
+```
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
