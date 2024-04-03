@@ -1,5 +1,5 @@
 <script setup>
-import CardItem from './CardItem.vue'
+import DrawerCard from './DrawerCard.vue'
 import DrawerHeader from './DrawerHeader.vue'
 import InfoBlock from './InfoBlock.vue'
 import { computed, ref } from 'vue'
@@ -44,7 +44,7 @@ console.log('isDrawerEmpty: ', isDrawerEmpty.value)
 
             <div v-if="!isDrawerEmpty">
                 <div class="flex flex-col gap-3" v-auto-animate>
-                    <CardItem v-for="card in drawerCards" :key="card.id" :title="card.title" :price="card.price"
+                    <DrawerCard v-for="card in drawerCards" :key="card.id" :title="card.title" :price="card.price"
                         :img="card.imageUrl" @click="() => emit('onDeleteFromDrawer', card)" />
                 </div>
                 <div>

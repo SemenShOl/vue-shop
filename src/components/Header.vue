@@ -12,7 +12,7 @@ defineProps({
     <header class="flex justify-between align-center border-b border-slate-300 p-2 ">
         <router-link to="/">
             <div class="flex items-center gap-4">
-                <img class="w-10" src="/logo.png" alg="Logo" />
+                <img class="w-11" src="/logo2.jpg" alg="Logo" />
                 <div>
                     <h1 class="text-xl font-bold uppercase">Vue Shop by Semyon</h1>
                     <p class="text-slate-400 text-sm">Простой макет магазина кроссовок на Vue

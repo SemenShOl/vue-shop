@@ -13,7 +13,7 @@ defineProps({
 
 <template>
     <div
-        class="relative flex flex-col w-full border border-slate-100 bg-white rounded-xl p-8 cursor-pointer transition hover:shadow-xl hover:transform hover:-translate-y-2">
+        class="relative flex flex-col w-full border border-slate-100 bg-white rounded-xl p-5 cursor-pointer transition hover:shadow-xl hover:transform hover:-translate-y-2">
         <div class="absolute top-8 left-8">
             <img @click="onClickFavorite" :src="isFavorite ? '/like-2.svg' : 'like-1.svg'" alt="Favorite" />
         </div>
