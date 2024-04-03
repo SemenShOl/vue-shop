@@ -14,9 +14,8 @@ defineProps({
             <div class="flex items-center gap-4">
                 <img class="w-10" src="/logo.png" alg="Logo" />
                 <div>
-                    <h1 class="text-xl font-bold uppercase">Vue Shop</h1>
-                    <p class="text-slate-400 text-sm">This template should help get you started developing with Vue 3 in
-                        Vite.
+                    <h1 class="text-xl font-bold uppercase">Vue Shop by Semyon</h1>
+                    <p class="text-slate-400 text-sm">Простой макет магазина кроссовок на Vue
                     </p>
                 </div>
 
